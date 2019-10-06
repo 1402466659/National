@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<style type="text/css">
+    @font-face {
+        font-family: 'iconfont';  /* project id 1444490 */
+        src: url('//at.alicdn.com/t/font_1444490_bd92o21o5b.eot');
+        src: url('//at.alicdn.com/t/font_1444490_bd92o21o5b.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_1444490_bd92o21o5b.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_1444490_bd92o21o5b.woff') format('woff'),
+        url('//at.alicdn.com/t/font_1444490_bd92o21o5b.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_1444490_bd92o21o5b.svg#iconfont') format('svg');
+    }
+    .iconfont{
+        font-family:"iconfont" !important;
+        font-size:22px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;}
+    body {
+        background-image: url("image/1.jpg");
+        background-size: cover;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .txt-sty{
+        position: relative;
+        left:315px;
+        top:270px;
+        font-size: 26px;
+        color: rgb(1, 167, 213);
+    }
+    .small-pos{
+        position: relative;
+        left: 630px;
+        top:150px;
+        color:rgb(158, 158, 158)
+    }
+    .in-sty{
+        width: 220px;
+        height: 30px;
+        border-radius: 10px;
+        font-size: 22px;
+    }
+    .btn-sty{
+        width: 160px;
+        height: 35px;
+        border-radius: 10px;
+        position: relative;
+        left: 70px;
+    }
+    .fir-sty{
+        color:rgb(76, 175, 233);
+        padding-right: 20px;
+    }
+    .sen-sty{
+        color:rgb(9, 187, 7);
+        padding-right: 20px;
+    }
+    .thi-sty{
+        color:rgb(211, 32, 36);
+        padding-right: 20px;
+    }
+    .con-pos{
+        position: relative;
+        left: 90px;
+    }
+</style>
+<body>
+<div class="container">
+    <label class="txt-sty">
+        Nova BBS
+    </label>
+
+    <form action="/login.do" method="post" class="small-pos" >
+        账号:
+        <input type="text" class="in-sty" name="accout">
+        <br>
+        <br>
+        <br>
+        密码:
+        <input type="password" class="in-sty" name="password">
+        <br>
+        <br>
+        <input type="submit" class="btn-sty" value="登录">
+        <br>
+        <br>
+        <div class="iconfont con-pos" >
+            <i class="fir-sty">&#xe600;</i>
+            <i class="sen-sty">&#xe627;</i>
+            <i class="thi-sty">&#xe601;</i>
+        </div>
+    </form>
+</div>
+</body>
+</html>

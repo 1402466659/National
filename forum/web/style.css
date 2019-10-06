@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 1444690 */
+    src: url('//at.alicdn.com/t/font_1444690_96fn0l22cvi.eot');
+    src: url('//at.alicdn.com/t/font_1444690_96fn0l22cvi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1444690_96fn0l22cvi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1444690_96fn0l22cvi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1444690_96fn0l22cvi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1444690_96fn0l22cvi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:26px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+*{
+    padding: 0;
+    margin: 0;
+}
+.small-top{
+    height: 60px;
+    width: 80%;
+    margin:0 auto;
+    font-size:18px;
+    font-family:华文中宋;
+    display: flex;
+    align-items: center;
+}
+.left-con{
+    width: 60%;
+    margin-left: 70px ;
+    background: rgb(246, 246, 246);
+    border-radius: 15px;;
+}
+.container{
+    width: 90%;
+    margin: 0 auto ;
+    display: flex;
+    flex: 1 1 auto;
+}
+.right-con{
+    width: 30%;
+    position: relative;
+    left: 40px;
+}
+.left-con-top-left{
+    width: 55%;
+
+}
+.left-con-top-right{
+    width: 45%;
+
+}
+.left-con-top{
+    height: 350px;
+    width:100%;
+    display: flex;
+    margin-bottom: 10px ;
+}
+.left-con-con-top{
+    height: 60px;
+    width: 100%;
+    font-size: 28px;
+    font-family:华文行楷;
+    border-top: 2px solid rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+
+}
+.left-con-con-row{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    display: flex;
+    padding-bottom: 15px;
+}
+.footer{
+    border-top:5px solid rgb(238, 238, 238);
+}
+.mar-sty{
+    width: 100%;
+    height: 100%;
+:"10";
+}
+.left-con-right-row{
+    width:80%;
+    height: 80px;
+    margin-bottom: 12px;
+    font-family: 仿宋;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 0px 0px 0px 5px;
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+}
+.right-con-row{
+    width:100%;
+    height:100px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.right-con-top{
+    width: 100%;
+    height: 100px;
+    font-family: 仿宋;
+    align:center;
+    align-content: center;
+    font-size: 26px;
+}
+.small-txt{
+    font-size: 14px;
+    font-family: 黑体;
+    position: relative;
+    left:230px;
+    text-decoration: none;
+}
+.left-con-con-foot{
+    width: 100%;
+    height: 100px;
+}
+.left-con-con-foot-btn{
+    width: 100%;
+    height: 50%;
+    border: none;
+    font-family:黑体;
+    font-size:18px;
+}
+.big-top{
+    width:100%;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.left-con-con-row-allpic{
+    width: 25%;
+    height: 100%;
+}
+.left-con-con-row-txt{
+    width: 75%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 仿宋;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.left-con-con-row-pic{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 10px;
+    border-radius: 15px;
+}
+.right-con-con-allpic{
+    width: 30%;
+    height: 100%;
+}
+.right-con-con-pic{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+.right-con-con-txt{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    top:20px;
+    left:-45px;
+}
